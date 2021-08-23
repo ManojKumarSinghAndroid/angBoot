@@ -7,3 +7,12 @@
 <p>
     <ngb-alert type="custom" [dismissible]="false"><strong>Whoa!</strong> This is a custom alert.</ngb-alert>
   </p> 
+<p>BOOTSTRAP SAMPLE</p>
+  <p *ngFor="let alert of alerts">
+    <ngb-alert [type]="alert.type" (closed)="close(alert)">{{ alert.message }}</ngb-alert>
+  </p>
+  <p>
+    <button type="button" class="btn btn-primary" (click)="reset()">Reset</button>
+  </p>
+
+  <p  (click)="testfun()">hihih</p>
