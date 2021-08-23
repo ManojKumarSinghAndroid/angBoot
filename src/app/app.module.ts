@@ -8,13 +8,17 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HeaderComponent} from './header/header.component';
 import { UserlistComponent } from './userlist/userlist.component';
 import { AdminComponent } from './admin/admin.component';
+import { Four04Component } from './four04/four04.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     UserlistComponent,
-    AdminComponent
+    AdminComponent,
+    Four04Component,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
